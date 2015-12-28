@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+
+	width: 90%;
+	height: 600px;
+	position: fixed;
+	left: 5%;
+
+	background-color: yellow;
+	border: 1px solid black;
+	-ms-transform: translate(50px,300px); /* IE 9 */
+	-webkit-transform: translate(50px,100px); /* Safari */
+	transform: translate(960px,500px); /* Standard syntax */
+	transition: 1s;
+}
+div:hover {
+	transform: translate(0px,0px);
+	-ms-transform: translate(0px,0px); /* IE 9 */
+	    -webkit-transform: translate(0px,0px); /* Safari */
+
+} 
+</style>
+</head>
+<body>
+
+<div>
+The translate() method moves an element from its current position. This div element is moved 50 pixels to the right, and 100 pixels down from its current position.
+</div>
+
+</body>
+</html>
